@@ -16,7 +16,6 @@ public class RedisDemo {
     @Test
     public void redis(){
         redisTemplate.opsForValue().set("毛","mao");
-
         System.out.println(redisTemplate.opsForValue().get("address"));
         System.out.println(redisTemplate.opsForValue().get("毛"));
 
